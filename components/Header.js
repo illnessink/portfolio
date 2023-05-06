@@ -26,18 +26,18 @@ function Header() {
                             ${router.asPath === "/about" ? "w-full" : "w-0"}`}>
                             &nbsp;</span>
                         </Link>
-                        <Link href="/contact" className='mx-4 relative group'>Contact
-                            <span className={`h-[1px] inline-block bg-indigo
-                            absolute left-0 -bottom-0.5
-                            group-hover:w-full transition-[width] ease duration-300
-                            ${router.asPath === "/contact" ? "w-full" : "w-0"}`}>
-                            &nbsp;</span>
-                        </Link>
                         <Link href="/projects" className='ml-4 relative group'>Projects
                             <span className={`h-[1px] inline-block bg-indigo
                             absolute left-0 -bottom-0.5
                             group-hover:w-full transition-[width] ease duration-300
                             ${router.asPath === "/projects" ? "w-full" : "w-0"}`}>
+                            &nbsp;</span>
+                        </Link>
+                        <Link href="/contact" className='mx-4 relative group'>Contact
+                            <span className={`h-[1px] inline-block bg-indigo
+                            absolute left-0 -bottom-0.5
+                            group-hover:w-full transition-[width] ease duration-300
+                            ${router.asPath === "/contact" ? "w-full" : "w-0"}`}>
                             &nbsp;</span>
                         </Link>
             </nav>
