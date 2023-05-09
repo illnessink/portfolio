@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FaFileDownload } from 'react-icons/fa'
 
-import profilePic from 'public/images/developer1 copy.png'
+import profilePic from 'public/images/developer1.png'
 
 
 export default function Home() {

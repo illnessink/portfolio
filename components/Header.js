@@ -2,12 +2,15 @@ import Link  from 'next/link';
 import React from 'react';
 import Logo from './Logo';
 import { useRouter } from 'next/router';
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsFillMoonStarsFill, BsFillBrightnessHighFill } from 'react-icons/bs';
 import { motion } from 'framer-motion';
-
+import useThemeSwitcher from 'components/hooks/useThemeSwitcher.js';
 
 function Header() {
+
+    const [mode, setMode] = useThemeSwitcher();
     const router = useRouter();
+
     return (
         <header 
         className='w-full px-32 py-8 font-medium flex items-center justify-between'>
@@ -56,6 +59,15 @@ function Header() {
                 >
                     <BsLinkedin className='text-3xl' />
                 </motion.a>
+                <button
+                onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
+                >
+                    {mode === 'dark' ? 
+                    <BsFillBrightnessHighFill className='text-3xl ml-3' />
+                    :
+                    <BsFillMoonStarsFill className='text-3xl ml-3'/>
+                    }
+                </button>
             </nav>
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
