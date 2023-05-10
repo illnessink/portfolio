@@ -30,6 +30,8 @@ const useThemeSwitcher = () => {
             }
         };
 
+        handleThemeChange();
+
         mediaQuery.addEventListener('change', handleThemeChange);
 
         return () => mediaQuery.removeEventListener('change', handleThemeChange);

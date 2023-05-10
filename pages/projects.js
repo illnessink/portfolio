@@ -11,15 +11,15 @@ import happymask from '@/public/images/happymaskshop.png';
 
 const FeaturedProject  = ({title, summary, img, link, github}) => {
     return (
-        <article className='w-full flex items-center justify-between rounded-3xl bg-light shadow-2xl'>
+        <article className='w-full flex items-center justify-between rounded-3xl bg-light shadow-2xl dark:bg-gray-600'>
             <div className='w-1/2 overflow-hidden rounded-lg p-12'>
                 <Image src={img} alt={title} className='w-full h-auto border-none rounded-lg' />
             </div>
             <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
                 <Link href={link} target='_blank'>
-                    <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+                    <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light'>{title}</h2>
                 </Link>
-                <p className='my-2 font-medium text-dark'>{summary}</p>
+                <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center'>
                     <Link href={github} target='_blank'
                     className='rounded-lg bg-dark text-light p-2 px=6 text-lg font-semibold
@@ -37,15 +37,15 @@ const FeaturedProject  = ({title, summary, img, link, github}) => {
 
 const Project = ({title, summary, img, link, github}) => {
     return (
-        <article className='w-full rounded-3xl bg-light shadow-2xl p-6 mt-10'>
+        <article className='w-full rounded-3xl bg-light shadow-2xl p-6 mt-10 dark:bg-gray-600'>
             <div className='w-full overflow-hidden rounded-lg '>
                 <Image src={img} alt={title} className='w-full h-auto border-none rounded-lg' />
             </div>
             <div className='w-full flex flex-col items-start justify-between pl-6'>
                 <Link href={link} target='_blank'>
-                    <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+                    <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light'>{title}</h2>
                 </Link>
-                <p className='my-2 font-medium text-dark'>{summary}</p>
+                <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center'>
                     <Link href={github} target='_blank'
                     className='rounded-lg bg-dark text-light p-2 px=6 text-lg font-semibold

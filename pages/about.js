@@ -13,7 +13,7 @@ export default function About() {
             <title>Vanessa Foerster | About Page</title>
             <meta name="descriptin" content="About Page for Vanessa Foerster" />
         </Head>
-        <main className='flex w-full flex-col items-center justify-center'>
+        <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className="pt-16">
                 <AnimatedText text="Art Meets Tech" className="mb-10"/>
                 <div className='grid w-full grid-cols-5 gap-10'>
