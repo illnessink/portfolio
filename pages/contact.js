@@ -1,10 +1,8 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import Link from "next/link";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import { useState } from "react";
-import { useRouter } from "next/router";
+import Head from "next/head";
+import Layout from "@/components/Layout";
+import AnimatedText from "@/components/AnimatedText";
+
 
 const Contact = () => {
   const ContactForm = (
@@ -81,21 +79,27 @@ const Contact = () => {
       </div>
       <button
         type="submit"
-        className="w-full p-4 text-gray-100 mt-4 font-semibold bg-[#AFD6DF] rounded-lg hover:bg-[#8FC9CB] ease-in duration-300]"
+        className='rounded-lg bg-dark text-light p-2 px=6 text-lg font-semibold
+        hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'
       >
         Send Message
       </button>
     </form>
   );
+
   return (
+    <>
+    <Head>
+            <title>Vanessa Foerster | Contact Page</title>
+            <meta name="descriptin" content="Contact Page for Vanessa Foerster" />
+        </Head>
+        <main className='flex w-full flex-col items-center justify-center dark:text-light'>
+            <Layout className="pt-16">
+                <AnimatedText text="Let's Connect" className="mb-10"/>
     <div id="contact" className="w-full lg:h-screen ">
       <div className="max-w-[1240px] m-auto p-2  w-full">
-        <p className="text-xl tracking-widest uppercase text-[#AFD6DF]">
-          Contact
-        </p>
-        <h2 className="py-4">Get in Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow shadow-gray-400 rounded-xl p-4 dark:bg-gray-600">
             <div className="lg:p-4 h-full rounded-xl">
               <div>
                 <img
@@ -105,27 +109,31 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Vanessa Foerster</h2>
+                <h2 className="py-2 font-bold text-xl">Vanessa Foerster</h2>
                 <p>Software Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time postions. Let's
-                  talk.
+                  talk!
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-6">
-                    <FaLinkedin size={25} />
+                    <a href="https://www.linkedin.com/in/vanessafoerster/"  target="_blank">
+                        <FaLinkedin size={25}  />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub size={25} />
+                    <a href="https://github.com/illnessink" target="_blank">
+                        <FaGithub size={25} />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow shadow-gray-400 rounded-xl lg:p-4 dark:bg-gray-600">
             <div className="p-4">
               {ContactForm}
             </div>
@@ -133,6 +141,9 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </Layout>
+    </main>
+    </>
   );
 };
 export default Contact;
