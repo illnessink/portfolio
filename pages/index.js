@@ -20,7 +20,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-6'>
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className='w-1/2 md:w-full'>
-              <Image src={profilePic} alt="Vanessa Foerster" className="w-full h-auto lg:inline-block lg:w-full" 
+              <Image src={profilePic} alt="Vanessa Foerster" className="lg:inline-block lg:w-full" 
               priority 
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
