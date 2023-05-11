@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="grid md:grid-cols-2 gap-4 w-full py-2">
         <div className="flex flex-col">
           <label
-            className="uppercase text-sm py-2"
+            className="uppercase text-sm py-2 sm:text-xs"
             htmlFor="name"
           >
             Name
@@ -38,7 +38,7 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="number" className="uppercase text-sm py-2">Phone Number</label>
+          <label htmlFor="number" className="uppercase text-sm py-2 sm:text-xs">Phone Number</label>
           <input
             type="text"
             id="number"
@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex flex-col py-2">
-        <label htmlFor="email" className="uppercase text-sm py-2">Email</label>
+        <label htmlFor="email" className="uppercase text-sm py-2 sm:text-xs">Email</label>
         <input
           type="email"
           id="email"
@@ -58,7 +58,7 @@ const Contact = () => {
         />
       </div>
       <div className="flex flex-col py-2">
-        <label htmlFor="subject" className="uppercase text-sm py-2">Subject</label>
+        <label htmlFor="subject" className="uppercase text-sm py-2 sm:text-xs">Subject</label>
         <input
           type="text"
           id="subject"
@@ -67,7 +67,7 @@ const Contact = () => {
         />
       </div>
       <div className="flex flex-col py-2">
-        <label htmlFor="message" className="uppercase text-sm py-2">Message</label>
+        <label htmlFor="message" className="uppercase text-sm py-2 sm:text-xs">Message</label>
         <textarea
           type="text"
           id="message"
@@ -95,12 +95,12 @@ const Contact = () => {
         </Head>
         <main className='flex w-full items-center justify-center dark:text-light'>
             <Layout className="pt-16">
-                <AnimatedText text="Let's Connect" className="mb-10"/>
+                <AnimatedText text="Let's Connect" className="mb-10 sm:!text-4xl"/>
     <div id="contact" className="w-full">
-      <div className="max-w-[1240px] m-auto p-2  w-full flex items-center justify-center">
+      <div className="max-w-[1240px] m-auto p-2  w-full flex items-center justify-center sm:p-0">
        
-          <div className="w-1/2 h-auto shadow shadow-gray-400 rounded-xl lg:p-4 dark:bg-gray-600">
-            <div className="p-4">
+          <div className="w-1/2 h-auto shadow shadow-gray-400 rounded-xl lg:p-4 dark:bg-gray-600 sm:w-full">
+            <div className="p-4 sm:p-0">
               {ContactForm}
             </div>
           </div>

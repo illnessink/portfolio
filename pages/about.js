@@ -15,13 +15,14 @@ export default function About() {
         </Head>
         <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className="pt-16">
-                <AnimatedText text="Art Meets Tech" className="mb-10"/>
-                <div className='grid w-full grid-cols-5 gap-10'>
-                    <div className="col-span-2 relative h-max rounded-2xl bg-light p-8 max-w-md flex shadow-lg ml-16">
+                <AnimatedText text="Art Meets Tech" className="mb-10 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"/>
+                <div className='grid w-full grid-cols-5 gap-10 sm:gap-8'>
+                    <div className="col-span-2 relative h-max rounded-2xl bg-light p-8 max-w-md shadow-lg 
+                    mx-auto md:col-span-5 md:justify-evenly sm:mx-auto">
                         <Image src={profilePic} alt="Vanessa Foerster" className="w-full h-auto rounded-2xl" />
                     </div>
-                    <div className="col-span-3 flex flex-col">
-                        <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 pt-6">About Me</h2>
+                    <div className="col-span-3 flex flex-col md:col-span-5 ">
+                        <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 pt-6 sm:pt-2">About Me</h2>
                         <p className='font-medium pr-14'>
                         Hi there! I'm Vanessa, a software engineer with a passion for all things creative. With a background in visual arts, 
                         I bring a unique perspective to software engineering. Whether it's designing sleek user interfaces or developing 
