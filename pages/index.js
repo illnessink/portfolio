@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import TransitionEffect from '@/components/TransitionEffect'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
@@ -16,6 +16,7 @@ export default function Home() {
         <title>Home | Vanessa Foerster's Porfolio</title>
         <meta name="description" content="Personal Portfolio Page for Vanessa Foerster" />
       </Head>
+      <TransitionEffect />
       <main className='flex items-center text-dark w-full h-screen dark:text-light sm:min-h-0 xs:min-h-0'>
         <Layout className='pt-0 md:pt-16 sm:pt-6'>
           <div className="flex items-center justify-between w-full lg:flex-col">

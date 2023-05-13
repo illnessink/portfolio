@@ -8,6 +8,7 @@ import yarncatImg from '@/public/images/YarnCatscreenshot.png';
 import hangman from '@/public/images/Hangman.png';
 import downtomatch from '@/public/images/downtomatch.png';
 import happymask from '@/public/images/happymaskshop.png';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FeaturedProject  = ({title, summary, img, link, github}) => {
     return (
@@ -72,8 +73,9 @@ function Projects() {
         <>
         <Head>
             <title>Vanessa Foerster | Projects Page</title>
-            <meta name="descriptin" content="Project Page for Vanessa Foerster" />
+            <meta name="description" content="Project Page for Vanessa Foerster" />
         </Head>
+        <TransitionEffect />
         <main className="w-full mb-16 flex flex-col items-center justify-center">
             <Layout className='pt-16'>
                 <AnimatedText text="Check Out What I've Built!" className='mb-16 lg:!text-7xl md:!text-5xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />

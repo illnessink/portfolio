@@ -5,14 +5,16 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import profilePic from "public/images/profilephoto.jpg";
 import Skills from "@/components/Skills";
+import TransitionEffect from "@/components/TransitionEffect";
 
 export default function About() {
     return (
         <>
         <Head>
             <title>Vanessa Foerster | About Page</title>
-            <meta name="descriptin" content="About Page for Vanessa Foerster" />
+            <meta name="description" content="About Page for Vanessa Foerster" />
         </Head>
+        < TransitionEffect />
         <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className="pt-16">
                 <AnimatedText text="Art Meets Tech" className="mb-10 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"/>

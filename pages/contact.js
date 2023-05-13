@@ -2,6 +2,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
+import TransitionEffect from "@/components/TransitionEffect";
 
 
 const Contact = () => {
@@ -91,8 +92,9 @@ const Contact = () => {
     <>
     <Head>
             <title>Vanessa Foerster | Contact Page</title>
-            <meta name="descriptin" content="Contact Page for Vanessa Foerster" />
+            <meta name="description" content="Contact Page for Vanessa Foerster" />
         </Head>
+        <TransitionEffect />
         <main className='flex w-full items-center justify-center dark:text-light'>
             <Layout className="pt-16">
                 <AnimatedText text="Let's Connect" className="mb-10 sm:!text-4xl"/>
