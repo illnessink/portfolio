@@ -67,7 +67,7 @@ function Header() {
                             ${router.asPath === "/about" ? "w-full" : "w-0"}`}>
                             &nbsp;</span>
                         </Link>
-                        <Link href="/projects" className='ml-4 relative group'>Projects
+                        <Link href="/projects" className='mx-4 relative group'>Projects
                             <span className={`h-[1px] inline-block bg-indigo dark:bg-light
                             absolute left-0 -bottom-0.5
                             group-hover:w-full transition-[width] ease duration-300
@@ -79,6 +79,13 @@ function Header() {
                             absolute left-0 -bottom-0.5
                             group-hover:w-full transition-[width] ease duration-300
                             ${router.asPath === "/contact" ? "w-full" : "w-0"}`}>
+                            &nbsp;</span>
+                        </Link>
+                        <Link href="/resume" className='mx-4 relative group'>Resume
+                            <span className={`h-[1px] inline-block bg-indigo dark:bg-light
+                            absolute left-0 -bottom-0.5
+                            group-hover:w-full transition-[width] ease duration-300
+                            ${router.asPath === "/resume" ? "w-full" : "w-0"}`}>
                             &nbsp;</span>
                         </Link>
                 </nav>
@@ -125,6 +132,7 @@ function Header() {
                         <MobileLink href="/about" title="About" className='' toggle={handleClick}/>
                         <MobileLink href="/projects" title="Projects" className='' toggle={handleClick}/>
                         <MobileLink href="/contact" title="Contact"  className='' toggle={handleClick}/>
+                        <MobileLink href="/resume" title="Resume"  className='' toggle={handleClick}/>
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap">
                     <motion.a href="https://github.com/illnessink" target={"_blank"}
