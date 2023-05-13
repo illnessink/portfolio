@@ -2,9 +2,6 @@ import React from "react";
 import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
-import Image from "next/image";
-import profilePic from "public/images/profilephoto.jpg";
-import Skills from "@/components/Skills";
 import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Resume() {
@@ -19,7 +16,7 @@ export default function Resume() {
             <Layout className="pt-16">
                 <AnimatedText text="Resume" className="mb-10 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"/>
                 <div className='flex items-center flex-col justify-center'>
-                        <h1 className="text-xl font-bold uppercase text-dark/75 pt-6 sm:pt-0">Vanessa Foerster</h1>
+                        <h1 className="text-xl font-bold uppercase text-dark/75 pt-6 sm:pt-0 dark:text-light">Vanessa Foerster</h1>
                         <h2 className="mb-4 text-md font-bold uppercase text-dark/75 mt-4 bg-gray-200 w-full text-center rounded-md">Software Engineer</h2>
                         <p className="w-[70vw] text-center sm:w-[80vw]">
                         As a software engineer with a background in visual arts, a unique perspective is brought to each project. 
@@ -33,10 +30,10 @@ export default function Resume() {
                         <p className="w-[70vw] text-center sm:w-[80vw]">
                         HTML | CSS | JavaScript | Node.js | Express | Git | GitHub | MongoDB | React | Python | Django| Adobe PhotoShop
                         </p>
-                        <h3 className="mb-4 text-md font-bold uppercase text-dark/75 mt-6 bg-gray-200 w-full text-center rounded-md">Technical Project Experience</h3>
+                        <h3 className="mb-4 text-md font-bold uppercase text-dark/75 mt-6 bg-gray-200 w-full text-center rounded-md ">Technical Project Experience</h3>
                         <div className="grid w-[65vw] grid-cols-5 gap-10 sm:w-[80vw]">
                             <div className="col-span-4 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">
                                     Hangman Game - Lead Developer
                                 </h4>
                                 <ul>
@@ -49,12 +46,12 @@ export default function Resume() {
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">Dec 2022</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">Dec 2022</h4>
                             </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-5 gap-10 sm:w-[80vw]">
                             <div className="col-span-4 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">
                                     Happy Mask Shop - Lead Developer
                                 </h4>
                                 <ul>
@@ -71,12 +68,12 @@ export default function Resume() {
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">Jan 2023</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">Jan 2023</h4>
                             </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-5 gap-10 sm:w-[80vw]">
                             <div className="col-span-4 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">
                                     Down to Match - Lead Front End Developer
                                 </h4>
                                 <ul>
@@ -93,12 +90,12 @@ export default function Resume() {
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">March 2023</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">March 2023</h4>
                             </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-5 gap-10 sm:w-[80vw]">
                             <div className="col-span-4 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">
                                     Yarn Cat - Lead Developer
                                 </h4>
                                 <ul>
@@ -114,13 +111,13 @@ export default function Resume() {
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">April 2023</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">April 2023</h4>
                             </div>
                         </div>
                         <h3 className="mb-4 text-md font-bold uppercase text-dark/75 mt-6 bg-gray-200 w-full text-center rounded-md">Experience</h3>
                         <div className="grid w-[65vw] grid-cols-6 gap-10 sm:w-[80vw] sm:gap-6">
                             <div className="col-span-5 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">
                                     Level 3 Hair Stylist | Vaza Salon - Ossining, NY 
                                 </h4>
                                 <ul>
@@ -139,12 +136,12 @@ resulted in reduced time spent identifying products improving efficiency by over
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pr-2 sm:text-sm sm:pt-2">April 2021 – Present</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pr-2 sm:text-sm sm:pt-2 dark:text-light">April 2021 – Present</h4>
                             </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-5 gap-10 sm:w-[80vw]">
                             <div className="col-span-4 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">
                                     Delivery Driver | Postmates - Los Angeles, CA  
                                 </h4>
                                 <ul>
@@ -158,12 +155,12 @@ resulted in reduced time spent identifying products improving efficiency by over
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm ">April 2017 – April 2020</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">April 2017 – April 2020</h4>
                             </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-5 gap-10 sm:w-[80vw]">
                             <div className="col-span-4 pl-8 sm:pl-0">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">
                                 Delivery Driver | Saucey - Los Angeles, CA 
                                 </h4>
                                 <ul>
@@ -178,38 +175,38 @@ resulted in reduced time spent identifying products improving efficiency by over
                                 </ul>
                             </div>
                             <div className="col-span-1 text-right sm:h-auto">
-                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm">May 2017 – Dec 2019</h4>
+                                <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:pt-2 sm:text-sm dark:text-light">May 2017 – Dec 2019</h4>
                             </div>
                         </div>
                         <h3 className="mb-4 text-md font-bold uppercase text-dark/75 mt-6 bg-gray-200 w-full text-center rounded-md">Education</h3>
                         <div className="grid w-[65vw] grid-cols-6 gap-10 sm:w-[80vw]">
                             <div className="col-span-4">
-                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">
+                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">
                                     Software Engineering Immersive | General Assembly | Remote
                                     </h4>
                             </div>
                             <div className="col-span-2 text-right">
-                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">Nov 2022 – May 2023</h4>
+                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">Nov 2022 – May 2023</h4>
                                 </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-6 gap-10 sm:w-[80vw]">
                             <div className="col-span-4">
-                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">
+                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">
                                     Cosmetology Program | Santa Monica College | Santa Monica, CA 
                                     </h4>
                             </div>
                             <div className="col-span-2 text-right">
-                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">June 2016 – Aug 2019</h4>
+                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">June 2016 – Aug 2019</h4>
                                 </div>
                         </div>
                         <div className="grid w-[65vw] grid-cols-6 gap-10 sm:w-[80vw]">
                             <div className="col-span-4">
-                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">
+                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">
                                     Graphic Design Program | Orange-Ulster BOCES | Goshen, NY 
                                     </h4>
                             </div>
                             <div className="col-span-2 text-right">
-                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2">Sep 2005 - June 2007</h4>
+                                    <h4 className="mb-4 text-md font-bold uppercase text-dark/75 pt-4 sm:text-sm sm:pt-2 dark:text-light">Sep 2005 - June 2007</h4>
                                 </div>
                         </div>
                 </div>
