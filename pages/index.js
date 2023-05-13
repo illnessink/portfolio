@@ -32,9 +32,14 @@ export default function Home() {
               <AnimatedText text="A fusion of code and creativity, bringing your design visions to life" 
               className='!text-6xl !text-left 
               xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-3xl sm:mt-4'/>
-              <p className='my-4 text-base font-medium md:text-sm'
-              >Creative software engineer, driving better user experiences with aesthetics and functionality.
-                Explore my latest projects, showcasing my skills in web development, design, and more.
+              <p className='my-4 text-base font-medium md:text-sm'>
+                {/* Creative software engineer, driving better user experiences with aesthetics and functionality.
+                Explore my latest projects, showcasing my skills in web development, design, and more. */}
+                As a highly innovative software engineer, my passion lies in crafting exceptional user experiences 
+                through a seamless blend of aesthetics and functionality. I invite you to explore my latest projects 
+                which showcase my extensive skill set in web development, graphic art/design, and beyond. These accomplishments 
+                serve as a testament to my commitment towards continuous growth, adaptability, and delivering top-notch 
+                results in the ever-evolving world of technology. 
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Resume 2023.pdf" target={'_blank'} 
