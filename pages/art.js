@@ -29,7 +29,7 @@ export default function Art() {
             <meta name="description" content="About Page for Vanessa Foerster" />
         </Head>
         < TransitionEffect />
-        <main className='flex w-full flex-col items-center justify-center h-screen dark:text-light'>
+        <main className='flex w-full flex-col items-center justify-center h-screen dark:text-light overflow-auto'>
             <Layout className="pt-16">
                 <AnimatedText text="Check Out Some Of My Art!" className="mb-10 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"/>
                 <div className="w-[80vw] xl:w-[75vw] mx-auto 2xl:w-[65vw]">

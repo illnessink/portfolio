@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="description" content="Personal Portfolio Page for Vanessa Foerster" />
       </Head>
       <TransitionEffect />
-      <main className='flex items-center text-dark w-full h-screen dark:text-light sm:min-h-0 xs:min-h-0'>
+      <main className='flex items-center text-dark w-full h-screen dark:text-light sm:min-h-0 xs:min-h-0 overflow-auto'>
         <Layout className='pt-0 md:pt-16 sm:pt-6'>
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className='w-1/2 md:w-full'>
