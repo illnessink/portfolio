@@ -74,6 +74,13 @@ function Header() {
                             ${router.asPath === "/projects" ? "w-full" : "w-0"}`}>
                             &nbsp;</span>
                         </Link>
+                        <Link href="/art" className='mx-4 relative group'>Art
+                            <span className={`h-[1px] inline-block bg-indigo dark:bg-light
+                            absolute left-0 -bottom-0.5
+                            group-hover:w-full transition-[width] ease duration-300
+                            ${router.asPath === "/art" ? "w-full" : "w-0"}`}>
+                            &nbsp;</span>
+                        </Link>
                         <Link href="/contact" className='mx-4 relative group'>Contact
                             <span className={`h-[1px] inline-block bg-indigo dark:bg-light
                             absolute left-0 -bottom-0.5
@@ -131,6 +138,7 @@ function Header() {
                         <MobileLink href="/" title="Home" className='' toggle={handleClick}/>
                         <MobileLink href="/about" title="About" className='' toggle={handleClick}/>
                         <MobileLink href="/projects" title="Projects" className='' toggle={handleClick}/>
+                        <MobileLink href="/art" title="Art" className='' toggle={handleClick}/>
                         <MobileLink href="/contact" title="Contact"  className='' toggle={handleClick}/>
                         <MobileLink href="/resume" title="Resume"  className='' toggle={handleClick}/>
                 </nav>
