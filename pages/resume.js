@@ -19,12 +19,12 @@ export default function Resume() {
                         <h1 className="text-xl font-bold uppercase text-dark/75 pt-6 sm:pt-0 dark:text-light">Vanessa Foerster</h1>
                         <h2 className="mb-4 text-md font-bold uppercase text-dark/75 mt-4 bg-gray-200 w-full text-center rounded-md">Software Engineer</h2>
                         <p className="w-[70vw] text-center sm:w-[80vw]">
-                        As a software engineer with a background in visual arts, a unique perspective is brought to each project. 
-                        Complex software challenges are tackled using creative thinking, problem-solving skills and a passion for 
-                        improving user experiences which drives the implementation of interactive features and services that drive 
-                        customer engagement, while ensuring inclusivity and accessibility for all users. Projects are approached 
-                        with design thinking principles, seamlessly integrating aesthetics and functionality to deliver effective 
-                        and user-friendly solutions
+                        Software engineer with a background in visual arts and a unique perspective on software development. 
+                        Driven to solve complex coding challenges using creative thinking and problem-solving skills. 
+                        Passionate about improving user experiences through the implementation of interactive features and 
+                        services, while ensuring inclusivity and accessibility for all users. Projects are approached with 
+                        design thinking principles, seamlessly integrating aesthetics and functionality to deliver effective 
+                        and user-friendly solutions.
                         </p>
                         <h3 className="mb-4 text-md font-bold uppercase text-dark/75 mt-6 bg-gray-200 w-full text-center rounded-md">Skills and Expertise</h3>
                         <p className="w-[70vw] text-center sm:w-[80vw]">
@@ -38,10 +38,10 @@ export default function Resume() {
                                 </h4>
                                 <ul>
                                     <li className="list-disc">
-                                    Designed and implemented a front-end Hangman web application using HTML, CSS and JavaScript
+                                    Front-end web app built with HTML, CSS, JavaScript, jQuery, Google Fonts and the Wordnik API. 
                                     </li>
                                     <li className="list-disc">
-                                    Enables users to play a game of hangman using a random word generated from a third party API
+                                    Random words are generated using the Wordnik API to allow users to play the game over and over. 
                                     </li>
                                 </ul>
                             </div>
@@ -56,14 +56,10 @@ export default function Resume() {
                                 </h4>
                                 <ul>
                                     <li className="list-disc">
-                                    Designed and built a full-stack application over the course of two weeks
+                                    Full-stack web app built with HTML, CSS, JavaScript, Google Fonts, Express, Node.js and MongoDB
                                     </li>
                                     <li className="list-disc">
-                                    Enables users to “purchase & sell” masks from web app inspired by The Happy Mask Shop from the Zelda 
-                                    game series
-                                    </li>
-                                    <li className="list-disc">
-                                    Technologies used: HTML, CSS, JavaScript, Node.js, Express and MongoDB
+                                    Enables users to “buy & sell”, upload their own, and delete or update masks using full CRUD operations.
                                     </li>
                                 </ul>
                             </div>
@@ -78,14 +74,13 @@ export default function Resume() {
                                 </h4>
                                 <ul>
                                     <li className="list-disc">
-                                    Designed and built a full-stack application using Python, Django and the Youtube API
+                                    Full MERN stack web app built with React.js, Express, Node.js, MongoDB, CSS3, Bootstrap, Cloudinary, Socket.io, and Google Firebase.
                                     </li>
                                     <li className="list-disc">
-                                    Yarn Cat enables users to add projects, upload info and photos, keep track of the time spent on each 
-                                    and search and favorite tutorial videos from youtube
+                                    Allows users to make a profile, upload photos, get matched and chat with other users based on compatibility quiz.
                                     </li>
                                     <li className="list-disc">
-                                    Technologies used: HTML, CSS, JavaScript, PostgreSQL, YouTube API, Python, Django and Bootstrap
+                                    Users can chat in real time with their matches using Socket.io
                                     </li>
                                 </ul>
                             </div>
@@ -100,13 +95,13 @@ export default function Resume() {
                                 </h4>
                                 <ul>
                                     <li className="list-disc">
-                                    Collaborated and designed a full MERN stack application with a team of four
+                                    Full-stack web app built with HTML, CSS, JavaScript, PostgreSQL, YouTube API, Python, Django and Bootstrap
                                     </li>
                                     <li className="list-disc">
-                                    Dating app that allows users to make a profile, upload photos and get matched and chat with other users
+                                    Users can add projects, upload info and photos, track time spent on each project as well as delete or update the project info
                                     </li>
                                     <li className="list-disc">
-                                    Technologies used: HTML, CSS, JavaScript, Ajax, Express and MongoDB
+                                    Users can search for tutorial videos using the Youtube API and favorite them to see them all on their favorites page
                                     </li>
                                 </ul>
                             </div>
