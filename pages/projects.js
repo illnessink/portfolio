@@ -140,8 +140,8 @@ function Projects() {
                         challenges players' wordplay abilities, expands their vocabulary, and provides hours 
                         of entertainment."
                         img={hangman}
-                        link='https://illnessink.github.io/proj1-hangman-game/'
-                        github='https://github.com/illnessink/proj1-hangman-game'
+                        link='https://illnessink.github.io/hangman-game/'
+                        github='https://github.com/illnessink/hangman-game'
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
